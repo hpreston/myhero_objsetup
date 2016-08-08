@@ -12,6 +12,9 @@ echo "Listing current buckets."
 echo "Updating policy on superheropics bucket."
 ./mc policy download myhero/superheropics
 
+echo "Listing local files"
+ls -l /images/
+
 echo "Copying in default images to bucket."
 #./mc cp /images/* myhero/superheropics/
 ./mc cp --recursive /images/ myhero/superheropics/
