@@ -1,0 +1,1 @@
+# myhero_objsetup
